@@ -114,6 +114,10 @@ class MediaListTile extends StatelessWidget {
                         Text(
                           '${lists[index]['Title']}',
                         ),
+                        Text(
+                          '${lists[index]['Year']}',
+                          style: const TextStyle(fontStyle: FontStyle.italic),
+                        ),
                         ElevatedButton(
                           onPressed: () {
                             Navigator.push(context,
