@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 import 'package:task1/controllers/media_controller.dart';
-import 'package:task1/details_page.dart';
+import 'package:task1/pages/details_page.dart';
 
 class MediaListTile extends StatelessWidget {
   final int index;
